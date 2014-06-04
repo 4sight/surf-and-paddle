@@ -16,8 +16,14 @@ body {
 
 #topLeftLogo {
 	left: 200px;
+	float: left;
 }
 
 #topLeftText {
 	font: PT Sans;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #083451;
+	font-weight: lighter;
 }
