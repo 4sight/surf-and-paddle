@@ -4,9 +4,11 @@ body {
 }
 
 #container {
-	width: 1050px;
+	position: relative;
+	width: 1000px;
 	margin-left: auto;
     margin-right: auto;
+    left: -25px;
 }
 
 .header {
@@ -26,4 +28,27 @@ body {
 	margin-left: 15px;
 	color: #083451;
 	font-weight: lighter;
+}
+
+#topRightText {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #083451;
+}
+
+.about {
+	float: right;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+.search {
+	float: right;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+
+#magnifier {
+	float: right;
+	margin-top: 5px;
 }
