@@ -14,6 +14,10 @@ body {
 	top: 15px;
 }
 
-#topleft {
+#topLeftLogo {
 	left: 200px;
+}
+
+#topLeftText {
+	font: PT Sans;
 }
