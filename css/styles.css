@@ -7,7 +7,7 @@ a:link {
 	color: #A3B3BF;
 }
 
-a:visited {
+a:hover {
 	color: #106DB3;
 }
 
@@ -125,7 +125,8 @@ h2 {
 	top: 10px;
 	right: 2px;
 	color: #106DB3;
-	font-size: 24px;
+	font-size: 28px;
+	margin-bottom: 44px;
 }
 
 #sidebar {
