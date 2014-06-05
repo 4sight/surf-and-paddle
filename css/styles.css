@@ -129,12 +129,17 @@ h2 {
 	margin-bottom: 44px;
 }
 
+.icons {
+	padding-top: 5px;
+}
+
 .articleButtonIcon {
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	background-color: #5E686F;
 	position: relative;
 	float: left;
+	text-align: center;
 }
 
 #sidebar {
