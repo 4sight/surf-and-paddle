@@ -3,6 +3,14 @@ body {
 	background-repeat: no-repeat;
 }
 
+a:link {
+	color: #A3B3BF;
+}
+
+a:visited {
+	color: #106DB3;
+}
+
 #bigContainer {
 	position: relative;
 	width: 1000px;
@@ -90,6 +98,34 @@ h2 {
 	float: left;
 	position: relative;
 	padding-top: 110px;
+	font-family: 'PT Sans', sans-serif;
+	color: #5E686F;
+}
+
+#articleInfo {
+	position: relative;
+	top: -58px;
+	left: 4px;
+}
+
+#mainText {
+	float: left;
+	font-size: 17px;
+}
+
+#blockQuoteContainer {
+	border-left-width: 2px;
+	border-left-color: #A3B3BF;
+	border-left-style: solid;
+	height: 50px;
+}
+
+#blockQuote {
+	position: relative;
+	top: 10px;
+	right: 2px;
+	color: #106DB3;
+	font-size: 24px;
 }
 
 #sidebar {
@@ -99,8 +135,30 @@ h2 {
 	padding-top: 180px;
 }
 
-#author {
+#aboutTheAuthor {
 	text-align: center;
 	position: relative;
 	padding-top: 5px;
+	float: left;
+}
+
+#author {
+	font-size: 14px;
+	color: #106DB3;
+	top: -25px;
+	margin-left: 34px;
+	position: relative;
+	float: left;
+}
+
+.grey {
+	font-size: 14px;
+	color: #A3B3BF;
+}
+
+#date {
+	top: -25px;
+	margin-left: 15px;
+	position: relative;
+	float: left;
 }
