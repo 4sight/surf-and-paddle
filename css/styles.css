@@ -1,5 +1,5 @@
 body {
-	background-image:url('../images/header.jpg');
+	background-image: url('../images/header.jpg');
 	background-repeat: no-repeat;
 }
 
@@ -22,12 +22,13 @@ body {
 }
 
 #topLeftText {
-	font: PT Sans;
+	font-family: 'PT Sans', sans-serif;
 	float: left;
 	margin-top: 15px;
 	margin-left: 15px;
 	color: #083451;
 	font-weight: lighter;
+	font-size: 18px;
 }
 
 #topRightText {
@@ -51,4 +52,19 @@ body {
 #magnifier {
 	float: right;
 	margin-top: 5px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 100px;
+	text-shadow: 0px 2px #083451;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	clear: both;
+}
+
+#headline {
+	position: relative;
+	padding-top: 130px;
 }
