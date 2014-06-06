@@ -86,7 +86,7 @@ h1 {
 	font-family: 'PT Sans', sans-serif;
 }
 
-h2 {
+.articleHeadline {
 	font-family: 'PT Sans', sans-serif;
 	color: #083451;
 	font-size: 60px;
@@ -97,20 +97,24 @@ h2 {
 	width: 65%;
 	float: left;
 	position: relative;
-	padding-top: 110px;
+	padding-top: 150px;
 	font-family: 'PT Sans', sans-serif;
 	color: #5E686F;
+	clear: both;
 }
 
 #articleInfo {
 	position: relative;
-	top: -58px;
+	top: -10px;
 	left: 4px;
 }
 
 #mainText {
 	float: left;
 	font-size: 17px;
+	position: relative;
+	top: -15px;
+	clear: both;
 }
 
 #blockQuoteContainer {
@@ -130,7 +134,7 @@ h2 {
 }
 
 .icons {
-	padding-top: 5px;
+	padding-top: 7px;
 }
 
 .articleButtonIcon {
@@ -140,6 +144,17 @@ h2 {
 	position: relative;
 	float: left;
 	text-align: center;
+	margin-left: 7px;
+}
+
+.articleButtonText {
+	background-color: #A3B3BF;
+	color: #fff;
+	text-align: center;
+	padding-top: 7px;
+	height: 23px;
+	float: left;
+	font-size: 14px;
 }
 
 #sidebar {
@@ -175,4 +190,13 @@ h2 {
 	margin-left: 15px;
 	position: relative;
 	float: left;
+}
+
+footer {
+	float: left;
+	border-top: 1px;
+    border-top-color: #A3B3BF;
+    border-top-style: solid;
+    clear: both;
+    width: 100%;
 }
