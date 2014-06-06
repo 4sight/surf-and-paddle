@@ -147,6 +147,10 @@ h1 {
 	margin-left: 7px;
 }
 
+.articleButtonText:hover {
+	background-color: #083452;
+}
+
 .articleButtonText {
 	background-color: #A3B3BF;
 	color: #fff;
@@ -156,6 +160,10 @@ h1 {
 	width: 110px;
 	float: left;
 	font-size: 14px;
+}
+
+.articleButtonIcon:hover {
+	background-color: #106DB3;
 }
 
 #sidebar {
@@ -198,6 +206,7 @@ footer {
 	border-top: 1px;
     border-top-color: #A3B3BF;
     border-top-style: solid;
+    margin-top: 50px;
     clear: both;
     width: 100%;
 }
