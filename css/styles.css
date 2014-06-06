@@ -223,7 +223,7 @@ footer {
 	width: 325px;
 }
 
-.footerOverlay {
+.footerButton .overlay {
 	height: 330px;
 	width: 325px;
 	background-color: #0066FF;
@@ -231,16 +231,16 @@ footer {
 	z-index: -1;
 }
 
-.footerOverlay:hover {
-	opacity: 0;
-}
-
-.footerOverlay:hover .labels {
+.footerButton:hover .overlay {
 	opacity: 0;
 }
 
 .footerButton .labels {
 	color: #083451;
+}
+
+.footerButton:hover .labels {
+	opacity: 0;
 }
 
 .footerButton:hover .labels {
