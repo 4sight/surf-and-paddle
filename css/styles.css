@@ -171,13 +171,19 @@ h1 {
 	float: right;
 	position: relative;
 	padding-top: 180px;
+	color: #A3B3BF;
 }
 
-#aboutTheAuthor {
+#authorPic {
 	text-align: center;
 	position: relative;
 	padding-top: 5px;
-	float: left;
+}
+
+#authorName {
+	color: #106DB3;
+	font-size: 16px;
+	text-align: center;
 }
 
 #author {
