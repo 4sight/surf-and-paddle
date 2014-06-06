@@ -217,3 +217,20 @@ footer {
     clear: both;
     width: 100%;
 }
+
+.footerButton {
+	height: 330px;
+	width: 325px;
+}
+
+.footerOverlay {
+	height: 330px;
+	width: 325px;
+	background-color: #0066FF;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.footerOverlay:hover {
+	opacity: 0;
+}
