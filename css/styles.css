@@ -234,3 +234,16 @@ footer {
 .footerOverlay:hover {
 	opacity: 0;
 }
+
+.footerOverlay:hover .labels {
+	opacity: 0;
+}
+
+.footerButton .labels {
+	color: #083451;
+}
+
+.footerButton:hover .labels {
+	color: #fff;
+	z-index: 1;
+}
