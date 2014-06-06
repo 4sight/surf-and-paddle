@@ -134,12 +134,12 @@ h1 {
 	margin-bottom: 44px;
 }
 
-.icons {
+.icon {
 	padding-top: 7px;
 }
 
-.articleButtonIcon {
-	height: 30px;
+#button .icon {
+	height: 22px;
 	width: 30px;
 	background-color: #5E686F;
 	position: relative;
@@ -148,23 +148,23 @@ h1 {
 	margin-left: 7px;
 }
 
-.articleButtonText:hover {
-	background-color: #083452;
-}
-
-.articleButtonText {
+#button .text {
 	background-color: #A3B3BF;
 	color: #fff;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 6px;
 	height: 23px;
 	width: 110px;
 	float: left;
 	font-size: 14px;
 }
 
-.articleButtonIcon:hover {
+#button:hover .icon {
 	background-color: #106DB3;
+}
+
+#button:hover .text {
+	background-color: #083452;
 }
 
 #sidebar {
