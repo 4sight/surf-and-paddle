@@ -228,19 +228,23 @@ footer {
 	width: 325px;
 	background-color: #0066FF;
 	opacity: 0.7;
+	z-index: -1;	
+}
+
+.footerButton:hofver .overlay {
+	opacity: 0;
 	z-index: -1;
 }
 
-.footerButton:hover .overlay {
-	opacity: 0;
-}
-
 .footerButton .labels {
+	position: relative;
 	color: #083451;
-}
-
-.footerButton:hover .labels {
-	opacity: 0;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	top: 280px;
 }
 
 .footerButton:hover .labels {
