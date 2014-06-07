@@ -219,11 +219,13 @@ footer {
 }
 
 .footerButton {
+	float: left;
 	height: 330px;
 	width: 325px;
 }
 
 .footerButton .overlay {
+	float: left;
 	height: 330px;
 	width: 325px;
 	background-color: #0066FF;
@@ -231,7 +233,7 @@ footer {
 	z-index: -1;	
 }
 
-.footerButton:hofver .overlay {
+.footerButton:hover .overlay {
 	opacity: 0;
 	z-index: -1;
 }
