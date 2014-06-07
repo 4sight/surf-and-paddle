@@ -275,3 +275,15 @@ footer {
 	color: #A3B3BF;
 	font-size: 12px;
 }
+
+a.nav:link {
+	text-decoration: none;
+}
+
+.nav {
+	float: right;
+	position: relative;
+	right: 200px;
+	color: #A3B3BF;
+	font-size: 12px;
+}
