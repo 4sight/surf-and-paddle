@@ -257,7 +257,17 @@ footer {
 
 .bottom {
 	width: 1300px;
-	height: 200px;
+	height: 100px;
 	background-color: #083451;
 	clear: left;
+}
+
+.tiyLogo {
+	padding-left: 180px;
+	padding-top: 35px;
+}
+
+.copyright {
+	padding-left: 190px;
+	padding-top: 35px;
 }
