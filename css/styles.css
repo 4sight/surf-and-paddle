@@ -247,9 +247,17 @@ footer {
 	padding-right: 10px;
 	padding-bottom: 10px;
 	top: 280px;
+	opacity: 1;
 }
 
 .footerButton:hover .labels {
 	color: #fff;
 	z-index: 1;
+}
+
+.bottom {
+	width: 1300px;
+	height: 200px;
+	background-color: #083451;
+	clear: left;
 }
