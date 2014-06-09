@@ -3,6 +3,8 @@ body {
 	background-repeat: no-repeat;
 }
 
+$headlineColor: #083451;
+
 a:link {
 	color: #A3B3BF;
 }
@@ -34,7 +36,7 @@ a:hover {
 	float: left;
 	margin-top: 15px;
 	margin-left: 15px;
-	color: #083451;
+	color: $headlineColor;
 	font-weight: lighter;
 	font-size: 18px;
 }
@@ -42,7 +44,7 @@ a:hover {
 #topRightText {
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
-	color: #083451;
+	color: $headlineColor;
 }
 
 .about {
@@ -78,7 +80,7 @@ h1 {
 }
 
 #byLine {
-	color: #083451;
+	color: $headlineColor;
 	font-size: 16px;
 	text-align: center;
 	position: relative;
@@ -88,7 +90,7 @@ h1 {
 
 .articleHeadline {
 	font-family: 'PT Sans', sans-serif;
-	color: #083451;
+	color: $headlineColor;
 	font-size: 60px;
 	letter-spacing:-6px;
 }
@@ -240,7 +242,7 @@ footer {
 
 .footerButton .labels {
 	position: relative;
-	color: #083451;
+	color: $headlineColor;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	float: right;
@@ -258,7 +260,7 @@ footer {
 .bottom {
 	width: 1300px;
 	height: 100px;
-	background-color: #083451;
+	background-color: $headlineColor;
 	clear: left;
 }
 
