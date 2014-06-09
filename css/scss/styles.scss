@@ -11,6 +11,8 @@ $headlineColor: #083451;
 	width: 325px;
 }
 
+@import 'home';
+
 a:link {
 	color: #A3B3BF;
 }
@@ -227,11 +229,11 @@ footer {
 }
 
 .footerButton {
-	include @footerButtons;
+	@include footerButtons();
 }
 
 .footerButton .overlay {
-	include @footerButtons;
+	@include footerButtons;
 	background-color: #0066FF;
 	opacity: 0.7;
 	z-index: -1;	
