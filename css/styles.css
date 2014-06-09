@@ -5,6 +5,12 @@ body {
 
 $headlineColor: #083451;
 
+@footerButtons{
+	float: left;
+	height: 330px;
+	width: 325px;
+}
+
 a:link {
 	color: #A3B3BF;
 }
@@ -221,15 +227,11 @@ footer {
 }
 
 .footerButton {
-	float: left;
-	height: 330px;
-	width: 325px;
+	include @footerButtons;
 }
 
 .footerButton .overlay {
-	float: left;
-	height: 330px;
-	width: 325px;
+	include @footerButtons;
 	background-color: #0066FF;
 	opacity: 0.7;
 	z-index: -1;	
